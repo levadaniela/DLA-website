@@ -5,7 +5,7 @@ function About(props) {
     <div className="row">
       <div id="about-me" className="side">
         <h2>About Me</h2>
-        <img src="DLA profile SOC.jpg" />
+        <img src="DLA profile SOC.jpg" alt="Profile" />
         <p style={{ textAlign: "justify" }}>
           This is Daniela Leva an <b>Organic Certification Specialist.</b>
           <br></br>
@@ -70,7 +70,7 @@ function About(props) {
             and have a beautiful one year old daughter.
           </p>
         </ul>
-        <img id="personal" src="pers life.jpg" />
+        <img id="personal" src="pers life.jpg" alt="pers life" />
         <h2 id="my-work">My Work</h2>
         <p style={{ textAlign: "justify" }}>
           I have been working 3 years as Certification Officer at ECOCERT SA –
@@ -110,7 +110,7 @@ function About(props) {
             efficiency.
           </li>
         </ul>
-        <img id="Tiryaki" src="try.jpg" />
+        <img id="Tiryaki" src="try.jpg" alt="Try" />
         <h2 id="my-hoby">My Hobby</h2>
         <p style={{ textAlign: "justify" }}>
           Finding a new hobby is a funny and dificult one, it takes a real
@@ -130,7 +130,7 @@ function About(props) {
           Now I'm working on a new project : my own blousse, you may see my
           progress so far below:
         </p>
-        <img id="blousse1" src="hobby 1.jpg" />
+        <img id="blousse1" src="hobby 1.jpg" alt="hobby" />
       </div>
       <div id="my-contact" className="side">
         <h2>Contact</h2>
